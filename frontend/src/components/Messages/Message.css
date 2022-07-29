@@ -1,0 +1,87 @@
+.messages{
+    display: block;
+    position: sticky;
+    top: 70px;
+    right: 10%;
+    background: var(--white);
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    height: max-content;
+}
+.message-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.message-top i{
+    font-size: 25px;
+}
+.line{
+    margin: 0 auto;
+    width: 100%;
+    height: 3px;
+    background: var(--black);
+    opacity: 0.3;
+}
+.line-active{
+    margin: 0 auto;
+    width: 100%;
+    height: 3px;
+    background: var(--black);
+}
+.link:hover .line{
+    opacity: 1;
+}
+.link{
+    color: black;
+}
+.link-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    gap:10px;
+}
+.searchbar{
+    display: flex;
+    justify-content: flex-start;
+}
+.searchbar input{
+    width: 15vw;
+}
+.link-row h3{
+    font-size: 1rem;
+}
+.buttonss:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 901px) {
+    .messages{
+        position: absolute;
+        right: 40px;
+        top: 90px;
+        width: 80vw;
+        box-shadow: 0 0 9px 0 var(--blue);
+        display: none;
+    }
+    .link-row h3{
+        font-size: 1.2rem;
+    }
+    
+    
+}
+@media screen and (max-width: 900px) {
+    .messages{
+        display: block;
+    }
+    
+}
+    
+@media screen and (min-width: 902px ) {
+    .messages{
+        display: block;
+        right:5%;
+    }
+}
