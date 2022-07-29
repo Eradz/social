@@ -1,0 +1,70 @@
+.reqs{
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+.req-top{
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+    width: 100%;
+}
+.reques-row{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 10px;
+    background: var(--white);
+    padding: 10px;
+    border-radius: 20px;
+}
+.req-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.img12{
+    background-image: url(../../../faces/face8.jpg);
+}
+.img13{
+    background-image: url(../../../public/avatar3.jpg);
+}
+.img14{
+    background-image: url(../../../public/avatar2.jpg);
+}
+.img15{
+    background-image: url(../../../public/avatar4.jpg);
+}
+.btn-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.btnn{
+    background: var(--background);
+    color: var(--black);
+}
+.btn-row button{
+    width:50%;
+    padding: 5px 20px;
+}
+@media screen and (max-width:900px) {
+    .reques-row{
+        width: 80%;
+    }
+    .reqs{
+        padding-top: 150px;
+    }
+}
