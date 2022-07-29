@@ -1,0 +1,73 @@
+.story-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:0.4rem;
+    margin-top: 7%;
+    
+}
+h6{
+    color: white;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+    width: 10rem;
+    height: 9rem;
+    padding: 5px;
+    border-radius: 20px;
+}
+.image:hover{
+    border: 1px solid var(--blue);
+    cursor: pointer;
+}
+.imgs{
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid var(--blue);
+}
+.image-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.image-coln h6{
+    color: white;
+}
+.img10{
+    background-image: url(../../../faces/face1.jpg);
+}
+.img11{
+    background-image: url(../../../faces/face10.jpg);
+}
+.img12{
+    background-image: url(../../../faces/face3.jpg);
+}
+.img13{
+    background-image: url(../../../faces/face4.jpg);
+}
+.img14{
+    background-image: url(../../../faces/face7.jpg);
+}
+@media screen and (max-width: 900px) {
+    .story-row{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .image{
+        max-width:150px;
+        max-height: 170px;
+    }
+}
+@media screen and (min-width: 400px) {
+    .image{
+        max-width: 80px;
+        max-height: 1700px;
+    }
+}

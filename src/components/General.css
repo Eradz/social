@@ -1,0 +1,38 @@
+.primary-coln{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.img{
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.prow{
+    display: flex;
+    text-align: left;
+    gap: 20px;
+}
+.prow p{
+    font-size: 12px;
+}
+.img4{
+    background-image: url(../../public/face2.jpg);
+}
+.img5{
+    background-image: url(../../public/face3.jpg);
+}
+.img6{
+    background-image: url(../../public/avatar4.jpg);
+}
+.img7{
+    background-image: url(../../public/face5.jpg);
+}
+.img8{
+    background-image: url(../../public/face6.jpg);
+}
+.img9{
+    background-image: url(../../public/avatar5.jpg);
+}

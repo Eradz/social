@@ -1,0 +1,60 @@
+.notifications{
+    position: fixed;
+    top: 0px;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+}
+.noti-row{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap:10px;
+    width: 35%;
+    background: var(--white);
+}
+.noti{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.noti-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.notti:hover{
+    cursor: pointer;
+}
+.noti-info{
+    display: flex;
+    flex-direction:column;
+}
+.noti-info p{
+    font-size: 0.9rem;
+    text-align: left;
+}
+@media screen and (max-width: 800px) {
+    .noti-row{
+        width:80%;
+    }
+    .img{
+        width: 30px;
+        height: 30px;
+    }
+    .noti h4{
+        font-size: 0.7rem;
+    }
+    .noti p{
+        font-size: 0.8rem;
+    }
+    .noti-info p{
+        font-size: 0.6rem;
+    }
+}
